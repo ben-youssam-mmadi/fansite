@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+body{
+    background: url(gif/mrrobot.gif) no-repeat 0 50% fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'DotGothic16', sans-serif;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.titreh1{
+    text-align: center;
+}
+.titreh2{
+    text-align: center;
+}
+.text-gras{
+    font-weight: bold;
+    color: #D01F25;
+}
+.text-noir{
+    color: black;
+}
+video{
+    width: 600px;
+    border: 2px solid white;
+    padding: 0;
+}
+input{
+    font-size: 1.2em;
+    margin: 20px 0;
+    background-color: rgb(0, 114, 43);
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.text-spec{
+    color: rgb(0, 114, 43);
+    font-weight: bold;
+}
+/* ******** SPOILER TEXT ******** */
+#spoilerh2{
+    padding-top: 15px;
+    text-align: center;
+    animation-duration: .8s;
+    animation-name: clignoter;
+    animation-iteration-count: infinite;
+    transition: none;
+    color: #e5de22;
+}
+@keyframes clignoter {
+    0%   { opacity:1; }
+    40%   {opacity:0; }
+    100% { opacity:1; }
+}
+/* ******** SPOILER TEXT ******** */
+
+/* ****************** HEADER ******************* */
+header{
+    display: flex;
+    justify-content: center;
+}
+#theme-song audio{
+    background-color: whitesmoke;
+    border-radius: 0px 0px 30px 30px;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    padding: 10px 5px;
+}
+
+/* ****************** CONTAINER ******************* */
+#container{
+    margin-top: 70px;
+}
+#container-box{
+    padding: 0px 20px;
+}
+
+/* ****************** BOXs ******************* */
+.box{
+    display: inline-block;
+    vertical-align: top;
+    background-color: #88816F;
+    border-radius: 10px;
+}
+.box1, .box3{
+    width: 25%;
+}
+.box2{
+    width: 40%;
+}
+.box div{
+    padding: 0 10px;
+}
+.box2, .box3{
+    margin-left: 50px;
+}
+#synopsis-serie{
+    padding-bottom: 40px;
+}
+#explications-serie-bandeannonce iframe{
+    width: 100%;
+    border-radius: 20px;
+}
+/* ****************** AFTER BOXs ******************* */
+#after-box{
+    margin: 200px 70px;
+    padding-bottom: 3px;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+#after-box-container{
+    margin-top: 60px;
+}
+#after-box-container .titreh1{
+    margin-bottom: 60px;
+}
+.af-container-extraits{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.af-container-extraits:hover{
+    -webkit-box-shadow: 0px 0px 15px 4px white; 
+    box-shadow: 0px 0px 15px 4px white;
+}
+.af-container-extraits p{
+    margin: 20px 70px;
+}
+.extrait{
+    display: flex;
+    justify-content: center;
+}
+
+/* ****************** LAST CONTAINER ******************* */
+#last-container{
+    margin: 0 40px;
+    padding: 40px 0;
+    border-radius: 10px;
+}
+
+#sansnom{
+    text-align: center;
+    margin: 0 180px 100px 180px;
+}
+#last-container-photo{
+    margin: 0 170px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.last-container-photo-box{
+    display: inline-block;
+}
+.last-container-photo-box img{
+    width: 300px;
+    height: 400px;
+    border: 5px outset #D01F25;
+}
